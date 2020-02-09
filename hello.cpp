@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+class B { public:  virtual void print() { std::cout<<”B”<<std::endl; }
 void main()
 {
     string str;
